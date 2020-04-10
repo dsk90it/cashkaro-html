@@ -1,0 +1,24 @@
+.scroll_outer { float:left; width:980px; margin-top:25px; position:relative; }
+
+.carousel ul { position:absolute; overflow:hidden; margin:0; padding:0; list-style:none; }
+
+.carousel .mask { position:relative; overflow:hidden; }
+
+#slider .mask { margin:0px auto; width:880px; height:100%; }
+
+.carousel ul li { float:left; width:200px; padding:15px; border:1px solid #d2d2d2; margin:20px 10px 0; text-align:center; }
+
+.blue_txt { display:block; width:100%; font-size:13px; line-height:17px; color:#1e6098; margin:18px 0; }
+.carousel ul li a {
+display:inline-block;
+background:#2066a1;
+line-height:30px;
+color:#fff;
+padding:0px 10px;
+font-size:14px;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+margin-bottom:18px;
+}
+.grey_txt { display:block; font-size:12px; line-height:16px; }

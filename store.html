@@ -1,0 +1,724 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CashKaro.com</title>
+<!-- Google font -->
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css' />
+<!-- Stylesheet -->
+<link rel="stylesheet" href="css/layout.css" type="text/css" />
+
+<!-- minified-js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!-- Tooltip -->
+<script>
+$(document).ready(function(){
+    $("#show").mouseover(function(){
+        $(".tooltip").show();
+    });
+	$("#show").mouseout(function(){
+        $(".tooltip").hide();
+    });
+    $("#hide").click(function(){
+        $(".tooltip").hide();
+    });	
+});
+</script>
+
+</head>
+
+<body style="background:#eeeeee;">
+<!-- header starts -->
+<div id="header">
+	<!-- logo row starts -->
+    <div class="logo_row"><div class="wrapper">
+    	<a href="index.html" class="logo"><img src="images/logo.png" alt="CashKaro.com Logo" title="CashKaro.com Logo" /></a>
+        
+        <div class="header_right">
+        	<ul class="list_reset">	
+            	<li><a href="#">Refer &amp; Earn</a></li>
+                <li class="vsep">|</li>
+                <li><a href="#">How IT Works</a></li>
+                <li class="vsep">|</li>
+                <li><a href="#">My account</a></li>
+                <li class="logout"><a href="#">Logout</a></li>
+            </ul>
+            
+            <div class="clear"></div>
+            
+            <div class="search_box">
+            <form action="#" method="post" name="search_box" id="search_box">
+            	<div class="search_select">All <a href="#"><img src="images/select_arw.png" alt="arrow" /></a></div>
+                <div class="search_text">
+                	<input type="text" placeholder="Type in website name e.g. Snapdeal, Myntra, freecharge..."/>
+                </div>
+                <div class="search_btn"><input type="image" src="images/search.jpg" alt="Search" /></div>
+            </form>
+            </div>
+        </div>
+    </div></div>
+    <!-- logo row ends -->
+    
+    <!-- navigation starts -->
+    <div class="navigation"><div class="wrapper">
+    <ul class="list_reset">
+    	<li><a href="#">Deals by Product <span class="menu_arrow"></span></a>
+        	<!-- submenu starts -->
+            <div class="list_reset submenu"><div class="submenu_inner">
+            <ul class="list_reset">
+              <li><a href="#"><strong>Electronics</strong></a></li>
+              <li><a href="#">Mobile Phones</a></li>
+              <li><a href="#">Mobile Accessories</a></li>
+              <li><a href="#">Laptops &amp; Computers</a></li>
+              <li><a href="#">Data Storage</a></li>
+              <li><a href="#">Cameras</a></li>
+              <li><a href="#">TV, Video &amp; Audio</a></li>
+              <li><a href="#">Tablets</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Clothing</strong></a></li>
+              <li><a href="#">Women Clothing</a></li>
+              <li><a href="#">Men Clothing</a></li>
+              <li><a href="#">Girls Clothing</a></li>
+              <li><a href="#">Boys Clothing</a></li>
+              <li><a href="#">Clothing for Infants</a></li>
+              <li><a href="#">Clothing for Boys &amp; Girls</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Shoes</strong></a></li>
+              <li><a href="#">Women Shoes</a></li>
+              <li><a href="#">Men Shoes</a></li>
+              <li><a href="#">Kids Shoes</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Accessories &amp; Bags</strong></a></li>
+              <li><a href="#">Women Bags</a></li>
+              <li><a href="#">Men Bags &amp; Wallets</a></li>
+              <li><a href="#">Backpacks</a></li>
+              <li><a href="#">Laptop Bags &amp; Sleeves</a></li>
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Women Accessories</a></li>
+              <li><a href="#">Men Accessories</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Babies &amp; Toys</strong></a></li>
+              <li><a href="#">Diapering</a></li>
+              <li><a href="#">Feeding</a></li>
+              <li><a href="#">Nursery &amp; Baby gear</a></li>
+              <li><a href="#">Bath, Skin &amp; Health Care</a></li>
+              <li><a href="#">Toys</a></li>
+              <li><a href="#">Books &amp; School Supplies</a></li>
+              <li><a href="#">Birthday &amp; Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Books &amp; Media</strong></a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Kindle</a></li>
+              <li><a href="#">Music</a></li>
+              <li><a href="#">Movies &amp; TV Shows</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Home &amp; Kitchen</strong></a></li>
+              <li><a href="#">Furniture</a></li>
+              <li><a href="#">Bedding</a></li>
+              <li><a href="#">Kitchen</a></li>
+              <li><a href="#">Home Appliances</a></li>
+              <li><a href="#">Kitchen Appliances</a></li>
+              <li><a href="#">Bath</a></li>
+              <li><a href="#">Living &amp; Home Decor</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Health &amp; Beauty</strong></a></li>
+              <li><a href="#">Fragrance &amp; Deodrants</a></li>
+              <li><a href="#">Women Beauty &amp; Make Up</a></li>
+              <li><a href="#">Bath, Body and Spa</a></li>
+              <li><a href="#">Hair Care</a></li>
+              <li><a href="#">Protein &amp; Vitamins</a></li>
+              <li><a href="#">Health &amp; Medical Devices</a></li>
+              <li><a href="#">Skin &amp; Derma Care</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Eyewear</strong></a></li>
+              <li><a href="#">Sunglasses</a></li>
+              <li><a href="#">Eyeglasses</a></li>
+              <li><a href="#">Contact Lens</a></li>
+              <li><a href="#">Eye Care</a></li>
+              <li><a href="#">Eyewear Accessories</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>More Categories</strong></a></li>
+              <li><a href="#">Automotive</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Musical Instruments</a></li>
+              <li><a href="#">Office Supplies</a></li>
+              <li><a href="#">Pet Supplies</a></li>
+              <li><a href="#">Travel &amp; Luggage</a></li>
+              <li><a href="#">Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            </div></div>
+            <!-- submenu ends -->        
+        </li>
+        <li><a href="#">Deals By BRAND <span class="menu_arrow"></span></a>
+        	<!-- submenu starts -->
+            <div class="list_reset submenu" style="margin-left:-196px;"><div class="submenu_inner">
+            <ul class="list_reset">
+              <li><a href="#"><strong>Electronics</strong></a></li>
+              <li><a href="#">Mobile Phones</a></li>
+              <li><a href="#">Mobile Accessories</a></li>
+              <li><a href="#">Laptops &amp; Computers</a></li>
+              <li><a href="#">Data Storage</a></li>
+              <li><a href="#">Cameras</a></li>
+              <li><a href="#">TV, Video &amp; Audio</a></li>
+              <li><a href="#">Tablets</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Clothing</strong></a></li>
+              <li><a href="#">Women Clothing</a></li>
+              <li><a href="#">Men Clothing</a></li>
+              <li><a href="#">Girls Clothing</a></li>
+              <li><a href="#">Boys Clothing</a></li>
+              <li><a href="#">Clothing for Infants</a></li>
+              <li><a href="#">Clothing for Boys &amp; Girls</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Shoes</strong></a></li>
+              <li><a href="#">Women Shoes</a></li>
+              <li><a href="#">Men Shoes</a></li>
+              <li><a href="#">Kids Shoes</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Accessories &amp; Bags</strong></a></li>
+              <li><a href="#">Women Bags</a></li>
+              <li><a href="#">Men Bags &amp; Wallets</a></li>
+              <li><a href="#">Backpacks</a></li>
+              <li><a href="#">Laptop Bags &amp; Sleeves</a></li>
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Women Accessories</a></li>
+              <li><a href="#">Men Accessories</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Babies &amp; Toys</strong></a></li>
+              <li><a href="#">Diapering</a></li>
+              <li><a href="#">Feeding</a></li>
+              <li><a href="#">Nursery &amp; Baby gear</a></li>
+              <li><a href="#">Bath, Skin &amp; Health Care</a></li>
+              <li><a href="#">Toys</a></li>
+              <li><a href="#">Books &amp; School Supplies</a></li>
+              <li><a href="#">Birthday &amp; Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Books &amp; Media</strong></a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Kindle</a></li>
+              <li><a href="#">Music</a></li>
+              <li><a href="#">Movies &amp; TV Shows</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Home &amp; Kitchen</strong></a></li>
+              <li><a href="#">Furniture</a></li>
+              <li><a href="#">Bedding</a></li>
+              <li><a href="#">Kitchen</a></li>
+              <li><a href="#">Home Appliances</a></li>
+              <li><a href="#">Kitchen Appliances</a></li>
+              <li><a href="#">Bath</a></li>
+              <li><a href="#">Living &amp; Home Decor</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Health &amp; Beauty</strong></a></li>
+              <li><a href="#">Fragrance &amp; Deodrants</a></li>
+              <li><a href="#">Women Beauty &amp; Make Up</a></li>
+              <li><a href="#">Bath, Body and Spa</a></li>
+              <li><a href="#">Hair Care</a></li>
+              <li><a href="#">Protein &amp; Vitamins</a></li>
+              <li><a href="#">Health &amp; Medical Devices</a></li>
+              <li><a href="#">Skin &amp; Derma Care</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Eyewear</strong></a></li>
+              <li><a href="#">Sunglasses</a></li>
+              <li><a href="#">Eyeglasses</a></li>
+              <li><a href="#">Contact Lens</a></li>
+              <li><a href="#">Eye Care</a></li>
+              <li><a href="#">Eyewear Accessories</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>More Categories</strong></a></li>
+              <li><a href="#">Automotive</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Musical Instruments</a></li>
+              <li><a href="#">Office Supplies</a></li>
+              <li><a href="#">Pet Supplies</a></li>
+              <li><a href="#">Travel &amp; Luggage</a></li>
+              <li><a href="#">Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            </div></div>
+            <!-- submenu ends -->        
+        </li>
+        <li><a href="#">Deals by retailer <span class="menu_arrow"></span></a>
+        	<!-- submenu starts -->
+            <div class="list_reset submenu" style="margin-left:-392px;"><div class="submenu_inner">
+            <ul class="list_reset">
+              <li><a href="#"><strong>Electronics</strong></a></li>
+              <li><a href="#">Mobile Phones</a></li>
+              <li><a href="#">Mobile Accessories</a></li>
+              <li><a href="#">Laptops &amp; Computers</a></li>
+              <li><a href="#">Data Storage</a></li>
+              <li><a href="#">Cameras</a></li>
+              <li><a href="#">TV, Video &amp; Audio</a></li>
+              <li><a href="#">Tablets</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Clothing</strong></a></li>
+              <li><a href="#">Women Clothing</a></li>
+              <li><a href="#">Men Clothing</a></li>
+              <li><a href="#">Girls Clothing</a></li>
+              <li><a href="#">Boys Clothing</a></li>
+              <li><a href="#">Clothing for Infants</a></li>
+              <li><a href="#">Clothing for Boys &amp; Girls</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Shoes</strong></a></li>
+              <li><a href="#">Women Shoes</a></li>
+              <li><a href="#">Men Shoes</a></li>
+              <li><a href="#">Kids Shoes</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Accessories &amp; Bags</strong></a></li>
+              <li><a href="#">Women Bags</a></li>
+              <li><a href="#">Men Bags &amp; Wallets</a></li>
+              <li><a href="#">Backpacks</a></li>
+              <li><a href="#">Laptop Bags &amp; Sleeves</a></li>
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Women Accessories</a></li>
+              <li><a href="#">Men Accessories</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Babies &amp; Toys</strong></a></li>
+              <li><a href="#">Diapering</a></li>
+              <li><a href="#">Feeding</a></li>
+              <li><a href="#">Nursery &amp; Baby gear</a></li>
+              <li><a href="#">Bath, Skin &amp; Health Care</a></li>
+              <li><a href="#">Toys</a></li>
+              <li><a href="#">Books &amp; School Supplies</a></li>
+              <li><a href="#">Birthday &amp; Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Books &amp; Media</strong></a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Kindle</a></li>
+              <li><a href="#">Music</a></li>
+              <li><a href="#">Movies &amp; TV Shows</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Home &amp; Kitchen</strong></a></li>
+              <li><a href="#">Furniture</a></li>
+              <li><a href="#">Bedding</a></li>
+              <li><a href="#">Kitchen</a></li>
+              <li><a href="#">Home Appliances</a></li>
+              <li><a href="#">Kitchen Appliances</a></li>
+              <li><a href="#">Bath</a></li>
+              <li><a href="#">Living &amp; Home Decor</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Health &amp; Beauty</strong></a></li>
+              <li><a href="#">Fragrance &amp; Deodrants</a></li>
+              <li><a href="#">Women Beauty &amp; Make Up</a></li>
+              <li><a href="#">Bath, Body and Spa</a></li>
+              <li><a href="#">Hair Care</a></li>
+              <li><a href="#">Protein &amp; Vitamins</a></li>
+              <li><a href="#">Health &amp; Medical Devices</a></li>
+              <li><a href="#">Skin &amp; Derma Care</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Eyewear</strong></a></li>
+              <li><a href="#">Sunglasses</a></li>
+              <li><a href="#">Eyeglasses</a></li>
+              <li><a href="#">Contact Lens</a></li>
+              <li><a href="#">Eye Care</a></li>
+              <li><a href="#">Eyewear Accessories</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>More Categories</strong></a></li>
+              <li><a href="#">Automotive</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Musical Instruments</a></li>
+              <li><a href="#">Office Supplies</a></li>
+              <li><a href="#">Pet Supplies</a></li>
+              <li><a href="#">Travel &amp; Luggage</a></li>
+              <li><a href="#">Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            </div></div>
+            <!-- submenu ends -->        
+        </li>
+        <li><a href="#">Restaurant Offers <span class="menu_arrow"></span></a>
+        	<!-- submenu starts -->
+            <div class="list_reset submenu" style="margin-left:-588px;"><div class="submenu_inner">
+            <ul class="list_reset">
+              <li><a href="#"><strong>Electronics</strong></a></li>
+              <li><a href="#">Mobile Phones</a></li>
+              <li><a href="#">Mobile Accessories</a></li>
+              <li><a href="#">Laptops &amp; Computers</a></li>
+              <li><a href="#">Data Storage</a></li>
+              <li><a href="#">Cameras</a></li>
+              <li><a href="#">TV, Video &amp; Audio</a></li>
+              <li><a href="#">Tablets</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Clothing</strong></a></li>
+              <li><a href="#">Women Clothing</a></li>
+              <li><a href="#">Men Clothing</a></li>
+              <li><a href="#">Girls Clothing</a></li>
+              <li><a href="#">Boys Clothing</a></li>
+              <li><a href="#">Clothing for Infants</a></li>
+              <li><a href="#">Clothing for Boys &amp; Girls</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Shoes</strong></a></li>
+              <li><a href="#">Women Shoes</a></li>
+              <li><a href="#">Men Shoes</a></li>
+              <li><a href="#">Kids Shoes</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Accessories &amp; Bags</strong></a></li>
+              <li><a href="#">Women Bags</a></li>
+              <li><a href="#">Men Bags &amp; Wallets</a></li>
+              <li><a href="#">Backpacks</a></li>
+              <li><a href="#">Laptop Bags &amp; Sleeves</a></li>
+              <li><a href="#">Watches</a></li>
+              <li><a href="#">Women Accessories</a></li>
+              <li><a href="#">Men Accessories</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Babies &amp; Toys</strong></a></li>
+              <li><a href="#">Diapering</a></li>
+              <li><a href="#">Feeding</a></li>
+              <li><a href="#">Nursery &amp; Baby gear</a></li>
+              <li><a href="#">Bath, Skin &amp; Health Care</a></li>
+              <li><a href="#">Toys</a></li>
+              <li><a href="#">Books &amp; School Supplies</a></li>
+              <li><a href="#">Birthday &amp; Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Books &amp; Media</strong></a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Kindle</a></li>
+              <li><a href="#">Music</a></li>
+              <li><a href="#">Movies &amp; TV Shows</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Home &amp; Kitchen</strong></a></li>
+              <li><a href="#">Furniture</a></li>
+              <li><a href="#">Bedding</a></li>
+              <li><a href="#">Kitchen</a></li>
+              <li><a href="#">Home Appliances</a></li>
+              <li><a href="#">Kitchen Appliances</a></li>
+              <li><a href="#">Bath</a></li>
+              <li><a href="#">Living &amp; Home Decor</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>Health &amp; Beauty</strong></a></li>
+              <li><a href="#">Fragrance &amp; Deodrants</a></li>
+              <li><a href="#">Women Beauty &amp; Make Up</a></li>
+              <li><a href="#">Bath, Body and Spa</a></li>
+              <li><a href="#">Hair Care</a></li>
+              <li><a href="#">Protein &amp; Vitamins</a></li>
+              <li><a href="#">Health &amp; Medical Devices</a></li>
+              <li><a href="#">Skin &amp; Derma Care</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            <ul class="list_reset gray_bg">
+              <li><a href="#"><strong>Eyewear</strong></a></li>
+              <li><a href="#">Sunglasses</a></li>
+              <li><a href="#">Eyeglasses</a></li>
+              <li><a href="#">Contact Lens</a></li>
+              <li><a href="#">Eye Care</a></li>
+              <li><a href="#">Eyewear Accessories</a></li>
+            </ul>
+            <ul class="list_reset">
+              <li><a href="#"><strong>More Categories</strong></a></li>
+              <li><a href="#">Automotive</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Musical Instruments</a></li>
+              <li><a href="#">Office Supplies</a></li>
+              <li><a href="#">Pet Supplies</a></li>
+              <li><a href="#">Travel &amp; Luggage</a></li>
+              <li><a href="#">Gifts</a></li>
+              <li><a href="#" class="v_all">View All</a></li>
+            </ul>
+            </div></div>
+            <!-- submenu ends -->        
+        </li>
+        <li class="org_clr"><a href="#">TOP OFFER <span class="menu_arrow"></span></a></li>
+    </ul>
+    </div></div>
+    <!-- navigation ends -->
+</div>
+<!-- header ends -->
+
+<!-- wrapper starts -->
+<div class="wrapper">
+<div id="middle_container">
+	<!-- breadcrumb starts -->
+    <div class="breadcrumbs"><a href="#">Home</a> / <a href="#">Stores</a> / <a href="#" class="actv">Jabong</a></div>
+    <!-- breadcrumb ends -->
+    
+    <!-- left-container starts -->
+    <div class="left_container">
+    	<!-- extra cashback banner starts -->
+        <div class="store_banner">
+   	    	<div class="fl"><img src="images/store_banner.jpg" alt="Store Banner"/></div>
+            <div class="cashback_spec">
+            	<div class="cashback_share">
+           	    	<img src="images/jabong_logo.jpg" alt="Jabong Logo"/>
+                    <span>
+                    	<a href="#"><img src="images/email_sml.jpg" alt="Email"/></a>
+                        <a href="#"><img src="images/fb_sml.jpg" alt="Facebook"/></a>
+                        <a href="#"><img src="images/twit_sml.jpg" alt="Twitter"/></a>
+                        <a href="#"><img src="images/gplus_sml.jpg" alt="Google Plus"/></a>
+                    </span>
+                </div>
+                
+              	<div class="coupon_offers">
+                	<b>29 coupon offers</b>
+                    <h1 class="heading">Upto 10% Extra Cashback</h1>
+                  	<a href="#" class="org_btn">Get your cashback <img src="images/wallet.png" align="right" alt="Button"/></a>
+                </div>
+            </div>
+        </div>
+        <!-- extra cashback banner ends -->
+        
+        <!-- deals details starts -->
+        <div class="deals_outer">
+        	<h1 class="heading">Jabong Deals with Cashback</h1>
+            
+            <!-- deal box starts -->
+            <div class="deal_box">
+            	<span class="expiry_txt">Expires in 3 days</span>
+                <p>Get up to 80% off + Get 31% extra off on min purchase of Rs 1499 or more</p>
+                <div class="deal_btns">
+                	<a href="#" class="fl org_btn">Grab deal</a>
+                    <span class="discount_txt">Discount added automatically</span>
+                </div>
+                <div class="deal_box_footer">
+                	<div class="fl">
+                    	<span><a href="#"><img src="images/grey_gear.jpg" alt="Gear">How it works</a></span>
+                        <span class="divider">|</span>
+                        <span><a href="#"><img src="images/grey_i.jpg" alt="Terms">Terms & Conditions</a></span>
+                        <span class="divider">|</span>
+                        <span class="verify_grn"><img src="images/grn_tick.jpg" alt="Verify">Verified</span>
+                    </div>
+                    
+                    <div class="fr">
+                    	<span class="fl">SHARE</span>
+                        <a href="#"><img src="images/grey_email.jpg" alt="Email"></a>
+                        <a href="#"><img src="images/grey_fb.jpg" alt="Facebook"></a>
+                        <a href="#"><img src="images/grey_twit.jpg" alt="Twitter"></a>
+                        <a href="#"><img src="images/grey_gplus.jpg" alt="gplus"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- deal box ends -->
+            
+            <!-- deal box starts -->
+            <div class="deal_box">
+            	<span class="expiry_txt">Expires in 3 days</span>
+                <p>Get Extra Rs 180 Cashback on orders over Rs 400 at Myntra! Includes top brands like Adidas, Allen Solly, Benetton, DKNY, Jockey and more. Plus Myntra will give you Rs 1800 Myntra Coupons when you sign-up on their site. (Cashback is offered by Cashkaro)</p>
+                <div class="deal_btns">
+                	<a href="#" class="fl org_btn">Grab deal</a>
+                    <span class="discount_txt">Discount added automatically</span>
+                </div>
+                <div class="deal_box_footer">
+                	<div class="fl">
+                    	<span><a href="#"><img src="images/grey_gear.jpg" alt="Gear">How it works</a></span>
+                        <span class="divider">|</span>
+                        <span><a href="#"><img src="images/grey_i.jpg" alt="Terms">Terms & Conditions</a></span>
+                        <span class="divider">|</span>
+                        <span class="verify_grn"><img src="images/grn_tick.jpg" alt="Verify">Verified</span>
+                    </div>
+                    
+                    <div class="fr">
+                    	<span class="fl">SHARE</span>
+                        <a href="#"><img src="images/grey_email.jpg" alt="Email"></a>
+                        <a href="#"><img src="images/grey_fb.jpg" alt="Facebook"></a>
+                        <a href="#"><img src="images/grey_twit.jpg" alt="Twitter"></a>
+                        <a href="#"><img src="images/grey_gplus.jpg" alt="gplus"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- deal box ends -->
+            
+            <!-- deal box starts -->
+            <div class="deal_box">
+            	<span class="expiry_txt">Expires in 3 days</span>
+                <p>Get Extra Rs 180 Cashback on orders over Rs 400 at Myntra! Includes top brands like Adidas, Allen Solly, Benetton, DKNY, Jockey and more. Plus Myntra will give you Rs 1800 Myntra Coupons when you sign-up on their site. (Cashback is offered by Cashkaro)</p>
+                <div class="deal_btns">
+                	<a href="#" class="fl org_btn">Grab deal</a>
+                    <span class="discount_txt">Discount added automatically</span>
+                </div>
+                <div class="deal_box_footer">
+                	<div class="fl">
+                    	<span><a href="#"><img src="images/grey_gear.jpg" alt="Gear">How it works</a></span>
+                        <span class="divider">|</span>
+                        <span><a href="#"><img src="images/grey_i.jpg" alt="Terms">Terms & Conditions</a></span>
+                        <span class="divider">|</span>
+                        <span class="verify_grn"><img src="images/grn_tick.jpg" alt="Verify">Verified</span>
+                    </div>
+                    
+                    <div class="fr">
+                    	<span class="fl">SHARE</span>
+                        <a href="#"><img src="images/grey_email.jpg" alt="Email"></a>
+                        <a href="#"><img src="images/grey_fb.jpg" alt="Facebook"></a>
+                        <a href="#"><img src="images/grey_twit.jpg" alt="Twitter"></a>
+                        <a href="#"><img src="images/grey_gplus.jpg" alt="gplus"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- deal box ends -->            
+        </div>
+        <!-- deals details ends -->
+    </div>
+    <!-- left-container ends -->
+    
+	<!-- right-container starts -->
+    <div class="right_container">
+    	<!-- cash-rates starts -->
+        <div class="rgt_border_box">
+        	<h1 class="heading rs">Cashback rates <span>This Cashback is paid over &amp; above<br>coupons &amp; discounts.</span></h1>
+            
+            <div class="rates">
+            	<div class="rate_number">
+                	<span class="blue_bg">Rs 2000</span>
+                    <div class="fr" id="show">
+                    	exclusive <img src="images/black_i.jpg" alt="Info">
+                        <!-- tooltip starts -->
+                        <div class="tooltip">
+                            <p><b>Terms & Conditions</b> <a href="#" class="fr" id="hide"><img src="images/close_tooltip.jpg" alt="Close"></a></p>
+                            <ul>
+                                <li>Cashback is not applicable if the sale is cancelled or if the goods are returned.</li>
+                                <li>To ensure your cashback tracks properly, please click out from our site before buying.</li>
+                                <li>To minimize risk of failed cashback, we recommend you to complete your sale in the same session after clicking out to the retailer's website from this page.</li>
+                                <li>Please only use Voucher Codes available on our site to avoid failed cashback transactions.</li>
+                                <li>Cashback paid using a voucher code may track at lower rates.</li>
+                                <li>Cashback is often paid excluding VAT, delivery and other administrative charges.</li>
+                                <li>You can raise a missing cashback ticket for your transaction within 30 days of the purchase date. Any missing cashback ticket after 30 days will not be accepted by Jabong.</li>
+                            </ul>
+        				</div>
+                        <!-- tooltip ends -->
+                    </div>
+                </div>
+                <p>for sign up on Delivery Saver</p>
+            </div>
+            
+            <div class="rates">
+            	<div class="rate_number">
+                	<span class="blue_bg">Rs 200</span>
+                    <span class="fr"><img src="images/black_i.jpg" alt="Info"></span>
+                </div>
+                <p>for first genuine new registration &amp; first order with Tesco Grocery (Rs 40 minimum spend)</p>
+            </div>
+            
+            <div class="rates last">
+            	<div class="rate_number">
+                	<span class="blue_bg">Rs 200</span>
+                    <div class="fr" id="show">
+                    	exclusive <img src="images/black_i.jpg" alt="Info">
+                    </div>
+                </div>
+                <p>for sign up on Delivery Saver</p>
+            </div>
+            
+            <a href="#" class="org_btn">Grab deal <img src="images/cart.png" align="right" alt="Button"/></a>           
+        </div>
+        <!-- cash-rates ends -->
+        
+        <!-- steps starts -->
+        <div class="rgt_border_box">
+        	<h1 class="heading">steps to earn cashback</h1>
+            
+            <div class="steps" style="margin-top:20px;">
+            	<img src="images/step1.jpg" alt="Step 1">
+                <p><span class="red_clr">Step 1</span>Join & Browse</p>
+            </div>
+            
+            <div class="steps">
+            	<img src="images/step2.jpg" alt="Step 2">
+                <p><span class="red_clr">Step 2</span>Click-through & Shop</p>
+            </div>
+            
+            <div class="steps">
+            	<img src="images/step3.jpg" alt="Step 3">
+                <p><span class="red_clr">Step 3</span>Cashback gets tracked <span>Within 72 hours</span></p>
+            </div>
+            
+            <div class="steps">
+            	<img src="images/step4.jpg" alt="Step 4">
+                <p><span class="red_clr">Step 4</span>Cashback gets Confirmed <span>Between 4-12 weeks</span></p>
+            </div>
+            
+            <div class="steps">
+            	<img src="images/step5.jpg" alt="Step 5">
+                <p><span class="red_clr">Step 5</span>Get Paid</p>
+            </div>            
+        </div>
+        <!-- steps ends -->
+        
+        <!-- about starts -->
+        <div class="rgt_border_box">
+        	<h1 class="heading">About Jabong</h1>
+            <p class="abt_txt">Jabong.com really makes online shopping easy and hassle free. It is India's leading online fashion and lifestyle store. Wear your style with the al...</p>
+        </div>
+        <!-- about ends -->
+        
+        <!-- also like starts -->
+        <div class="rgt_border_box">
+        	<h1 class="heading">You may also like</h1>
+            <a href="#" class="also_link"><span>Jabong Coupons</span> Up to 6% Cashback & 2 voucher codes</a>
+            <a href="#" class="also_link"><span>Myntra Coupons</span> Up to Rs.180 Cashback & 1 voucher codes</a>
+            <a href="#" class="also_link"><span>Yepme Coupons</span> Up to 10% Cashback & 1 voucher codes</a>
+            <a href="#" class="also_link"><span>Zovi Coupons</span> Up to Rs.115 Cashback & 1 voucher codes</a>
+            <a href="#" class="also_link"><span>Freecultr Coupons</span> Up to Rs.260 Cashback & 1 voucher codes</a>                     
+        </div>
+        <!-- also like ends -->
+        
+        <!-- social starts -->
+        <div class="rgt_border_box">
+        	<div class="socials">
+            	<a href="#"><img src="images/fb_big.jpg" alt="Facebook"></a>
+                <a href="#"><img src="images/twit_big.jpg" alt="Twitter"></a>
+                <a href="#"><img src="images/gplus_big.jpg" alt="Gplus"></a>
+            </div>
+            <p class="abt_txt" style="margin-top:5px;">'Like us' on Facebook to get the latest Myntra Discount Coupons 2013. Also share our Myntra Promotional Code with your friends and help them save money also</p>
+        </div>
+        <!-- social ends -->
+    </div>
+    <!-- right-container ends -->
+</div>    
+</div>
+<!-- wrapper ends -->
+
+<div style="float:left; width:100%; height:80px;"></div>
+</body>
+</html>
